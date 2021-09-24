@@ -30,7 +30,7 @@
 //     movies: {},
 //     actors: {},
 //     genres: [],
-//     privat: false
+//     privat: false,
 // };
 
 // const a = prompt('Один из последних просмотренных фильмов?', ''),
@@ -43,24 +43,40 @@
 
 // console.log(personalMovieDB);
 
-// if (4 == 9) {
-//     console.log('Ok!');
+
+// -----------
+// // УСЛОВИЯ
+// -----------
+
+
+// const num = 51;
+
+// if (num < 49) {
+//     console.log('Error!');
+// } else if (num > 100) {
+//     console.log('Too Much!');
 // } else {
-//     console.log('Error');
+//     console.log('Ok!');
 // }
 
-// (4 === 3) ? console.log('Ok!') : console.log('MISTAKE!');
+// Тернарный оператор
+// (num === 50) ? console.log('Ok!') : console.log('Mistake!');
 
-const num = 33;
+// Switch
 
-switch (num) {
-    case 25:
-        console.log('Не верно!');
-        break;
-    case 33:
-        console.log('Потрясающе!');
-        break;
-    default:
-        console.log('Учись студент!');
-        break;
-}
+// const num = 10;
+
+// switch (num) {
+//     case 40:
+//         console.log('Error!');
+//         break;
+//     case 45:
+//         console.log('Mistake!');
+//         break;
+//     case 50:
+//         console.log('Right!');
+//         break;
+//     default:
+//         console.log('You got to learn more!');
+//         break;
+// }
